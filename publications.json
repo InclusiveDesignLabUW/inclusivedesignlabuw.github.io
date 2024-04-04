@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Introduction to Quantum Computing",
+    "authors": ["Alice Smith", "Bob Johnson"],
+    "year": 2022,
+    "image": "lablogo.png",
+    "alt": "Head shot of Leah",
+    "pdf": "",
+    "feature": true
+  },
+  {
+    "title": "Machine Learning Algorithms",
+    "authors": ["Carl Brown", "David Lee"],
+    "year": 2021,
+    "image": "leah.png",
+    "alt": "Head shot of Leah",
+    "pdf": "",
+    "feature": false
+  }
+]

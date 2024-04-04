@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <title>Inclusive Design Lab - UW HCDE</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2295%22>💾</text></svg>">
+  </head>
+  
+  <body>
+    <nav class="sidebar">
+      <a href="#home"><img src="images/lablogo.png" id="lab_logo_sidebar"></a>
+      <a href="#about">About</a>
+      <a href="#people">People</a>
+      <a href="#publications">Publications</a>
+      <a href="#news">News</a>
+      <p id="update_date">Last updated: April 2024</p>
+    </nav>
+
+    <main role="main">
+      <h1 id="home">Inclusive Design Lab</h1>
+      
+      <h2 id="about">About</h2>
+        <p>The Inclusive Design Lab at the University of Washington is an interdisciplinary set of researchers focusing on making the next generation of computing accessible to everyone. We employ a mix of qualitative and quantitative methods to study existing practices, create new technologies to address gaps and challenges, and evaluate those innovations. Founded in 2012 at the University of Maryland, the Inclusive Design Lab moved to UW in 2017.</p>
+        
+        <p>A sample of current and past projects:</p>
+        <ul>
+          <li>Creativity tools for blind and low vision users</li>
+          <li><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2125925" target="_blank">Algorithms and tools to empower blind people to safeguard private visual content</a></li>
+          <li><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1763199" target="_blank">Accessible captioning and sound recognition techniques</a></li>
+          <li><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1409287" target="_blank">Closing the user-model loop for understanding topics in large document collections</a></li>
+          <li><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1748663" target="_blank">Adaptive heads up displays for simultaneous interpretation</a></li>
+          <li><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1818594" target="_blank">Scaling up mobile accessibility through touchscreen personalization</a></li>
+        </ul>
+
+        <p>We are affiliated with:</p>
+        <!-- add logos -->
+
+      <h2 id="people">People</h2>
+      <section id="leah" style="padding-bottom: 16px;">
+        <script> 
+          $(document).ready(function () { 
+            $.getJSON("people.json", function (data) { 
+                var person = '';
+                $.each(data, function (key, value) {
+                  if (value.name == "Leah Findlater") {
+                    person += '<div>';
+                    person += '<img class="person_img" src="images/' + 
+                      value.image + '" alt="' +
+                      value.alt + '">';
+                    person += '<h5 class="person_name">' +  
+                      value.name + '</h5>';
+                    person += '<p class="person_title">' +  
+                      value.jobTitle + '</p>';
+                    person += '<p class="person_bio">' + 
+                      value.bio + '</p>';
+                    person += '</div>'
+                  } 
+                }); 
+                $("#leah").append(person); 
+            });
+          }); 
+        </script>
+      </section>
+
+      <section id="current">
+      <h3>Current</h3>
+        <script> 
+          $(document).ready(function () { 
+            $.getJSON("people.json", function (data) { 
+                var person = '';
+                var item = 0;
+                $.each(data, function (key, value) {
+                  if (!value.alum && value.name != "Leah Findlater") {
+                    if (item % 3 == 0) {
+                      person += '<div class="row">';
+                    }
+                    person += '<div class="person_obj">';
+                    person += '<img class="person_img" src="images/' + 
+                      value.image + '" alt="' +
+                      value.alt + '">';
+                    person += '<h5 class="person_name">' +  
+                      value.name + '</h5>';
+                    person += '<p class="person_title">' +  
+                      value.jobTitle + '</p>';
+                    person += '<p class="person_bio">' + 
+                      value.bio + '</p>';
+                    person += '<a href="' +
+                      value.links.scholar_url + '" target="_blank"><img src="images/GoogleScholar.png" class="social_icon" alt="Google Scholar logo"></a>';
+                    person += '</div>';
+                    if (item % 3 == 2) {
+                      person += '</div>';
+                    }
+                    item += 1;
+                  } 
+                }); 
+                $("#current").append(person); 
+            });
+          }); 
+        </script> 
+      </section>
+
+      <h3>Alumni</h3>
+      <div id="alumni">
+        <script> 
+          $(document).ready(function () { 
+            $.getJSON("people.json", function (data) { 
+                var person = '';
+                var item = 0;
+                $.each(data, function (key, value) {
+                  if (value.alum) {
+                    if (item % 5 == 0) {
+                      person += '<div class="row">';
+                    }
+                    person += '<div class="alum_person_obj">';
+                    person += '<img class="alum_person_img" src="images/' + 
+                      value.image + '" alt="' +
+                      value.alt + '">';
+                    person += '<h5 class="person_name">' +  
+                      value.name + '</h5>';
+                    person += '<p class="person_title">' +  
+                      value.jobTitle + '</p>';
+                    person += '</div>';
+                    if (item % 5 == 4) {
+                      person += '</div>';
+                    }
+                    item += 1;
+                  } 
+                }); 
+                $("#alumni").append(person); 
+            });
+          }); 
+        </script> 
+      </div>
+
+      <h2 id="publications">Selected Publications</h2>
+      <div id="publication">
+        <p>For full publication listings, please visit individual members’ webpages or Google Scholar pages.</p>
+        <script> 
+          $(document).ready(function () { 
+            $.getJSON("publications.json", function (data) { 
+                var pub = '';
+                $.each(data, function (key, value) {
+                  if (value.feature) {
+                    pub += '<img class="paper_img" src="images/' + 
+                        value.image + '" alt="' +
+                        value.alt + '">';
+                    pub += '<h5 class="paper_title">' +  
+                      value.title + '</h5>';
+                    pub += '<p>' +  
+                      value.authors.join(', ') + '</p>';
+                    pub += '<p>' +  
+                      value.year + '</p>';
+                  } 
+                }); 
+                $("#publication").append(pub); 
+            }); 
+          }); 
+        </script> 
+      </div>
+
+    </main>
+
+  </body>
+</html>
