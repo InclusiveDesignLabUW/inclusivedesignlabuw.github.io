@@ -54,6 +54,7 @@ section {
 
 .person_title {
   color: #595959;
+  margin-bottom: 8px;
 }
 
 .row {
@@ -73,7 +74,14 @@ section {
 }
 
 .social_icon {
-  width: 32px;
+  width: 28px;
+  height: 28px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+#rounded_icon {
+  border-radius: 17%;
 }
 
 /* Publications */
@@ -128,6 +136,7 @@ main {
   }
   .sidebar a {float: left;}
   main {margin-left: 0;}
+  h1 {margin-left: 0;}
 }
 
 @media screen and (max-width: 400px) {
