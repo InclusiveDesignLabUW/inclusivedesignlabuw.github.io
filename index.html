@@ -21,8 +21,8 @@
       <p id="update_date">Last updated: April 2024</p>
     </nav>
 
+    <h1 id="home">Inclusive Design Lab</h1>
     <main role="main">
-      <h1 id="home">Inclusive Design Lab</h1>
       
       <h2 id="about">About</h2>
         <p>The Inclusive Design Lab at the University of Washington is an interdisciplinary set of researchers focusing on making the next generation of computing accessible to everyone. We employ a mix of qualitative and quantitative methods to study existing practices, create new technologies to address gaps and challenges, and evaluate those innovations. Founded in 2012 at the University of Maryland, the Inclusive Design Lab moved to UW in 2017.</p>
@@ -38,7 +38,17 @@
         </ul>
 
         <p>We are affiliated with:</p>
-        <!-- add logos -->
+        <a href="https://www.hcde.washington.edu/" target="_blank">
+          <img class="affiliation" src="images/HCDElogo2.jpg" alt="UW HCDE logo reading Human Centered Design & Engineering, University of Washington in black text, underneath a large purple W."></a>
+        <a href="https://create.uw.edu/" target="_blank">
+          <img class="affiliation" src="images/CREATElogo.png" alt="UW CREATE logo with icon of person with prosthetic arm holding a lightbulb and Center for Research and Education on Accessible Technology and Experiences, University of Washington."></a>
+        <a href="https://dub.washington.edu/" target="_blank">
+          <img class="affiliation" src="images/DUBlogo.png" alt="UW DUB logo with the letters D, U, and B in a stylized purple font over the words Design Use Build in bright green." style="height: 120px; margin-top: 32px; margin-left: 18px;"></a>
+        <a href="https://cs.washington.edu/" target="_blank">
+          <img class="affiliation" src="images/CSElogo.png" alt="UW CSE logo reading Paul G. Allen School of Computer Science & Engineering in purple text, to the right of a large W." style="height: 128px; margin-top: 24px; margin-left: 20px;"></a>
+        <a href="https://disabilitystudies.washington.edu/" target="_blank">
+          <img class="affiliation" src="images/disabilitystudieslogo.png" alt="Logo reading Disability Studies, University of Washington in black text." style="height: 144px; margin-top: 16px"></a>
+      
 
       <h2 id="people">People</h2>
       <section id="leah" style="padding-bottom: 16px;">
@@ -54,11 +64,15 @@
                       value.alt + '">';
                     person += '<h5 class="person_name">' +  
                       value.name + '</h5>';
+                    person += '<p class="person_pronouns">' +
+                      value.pronouns + '</p>';
                     person += '<p class="person_title">' +  
                       value.jobTitle + '</p>';
                     person += '<p class="person_bio">' + 
                       value.bio + '</p>';
-                    person += '</div>'
+                    person += '<a href="' +
+                      value.links.scholar_url + '" target="_blank"><img src="images/GoogleScholar.png" class="social_icon" alt="Google Scholar logo"></a>';
+                    person += '</div>';
                   } 
                 }); 
                 $("#leah").append(person); 
@@ -85,6 +99,8 @@
                       value.alt + '">';
                     person += '<h5 class="person_name">' +  
                       value.name + '</h5>';
+                    person += '<p class="person_pronouns">' +
+                      value.pronouns + '</p>';
                     person += '<p class="person_title">' +  
                       value.jobTitle + '</p>';
                     person += '<p class="person_bio">' + 
@@ -101,11 +117,11 @@
                 $("#current").append(person); 
             });
           }); 
-        </script> 
+        </script>
       </section>
 
+      <section id="alumni">
       <h3>Alumni</h3>
-      <div id="alumni">
         <script> 
           $(document).ready(function () { 
             $.getJSON("people.json", function (data) { 
@@ -113,7 +129,7 @@
                 var item = 0;
                 $.each(data, function (key, value) {
                   if (value.alum) {
-                    if (item % 5 == 0) {
+                    if (item % 4 == 0) {
                       person += '<div class="row">';
                     }
                     person += '<div class="alum_person_obj">';
@@ -125,7 +141,7 @@
                     person += '<p class="person_title">' +  
                       value.jobTitle + '</p>';
                     person += '</div>';
-                    if (item % 5 == 4) {
+                    if (item % 4 == 3) {
                       person += '</div>';
                     }
                     item += 1;
@@ -135,10 +151,10 @@
             });
           }); 
         </script> 
-      </div>
+      </section>
 
+      <section id="publication">
       <h2 id="publications">Selected Publications</h2>
-      <div id="publication">
         <p>For full publication listings, please visit individual members’ webpages or Google Scholar pages.</p>
         <script> 
           $(document).ready(function () { 
@@ -146,22 +162,55 @@
                 var pub = '';
                 $.each(data, function (key, value) {
                   if (value.feature) {
-                    pub += '<img class="paper_img" src="images/' + 
+                    pub += '<div class="pub_obj">';
+                    pub += '<img class="pub_img" src="images/' + 
                         value.image + '" alt="' +
                         value.alt + '">';
-                    pub += '<h5 class="paper_title">' +  
+                    pub += '<h5 class="pub_title">' +  
                       value.title + '</h5>';
                     pub += '<p>' +  
                       value.authors.join(', ') + '</p>';
-                    pub += '<p>' +  
-                      value.year + '</p>';
-                  } 
+                    pub += '<p>' + 
+                      value.conference + ' ' + value.year + '</p>';
+                    pub += '</div>';
+                  }
                 }); 
                 $("#publication").append(pub); 
             }); 
           }); 
         </script> 
-      </div>
+      </section>
+
+      <section id="news_section">
+      <h2 id="news">News</h2>
+        <p>Occasionally updated.</p>
+        <script> 
+          $(document).ready(function () { 
+            $.getJSON("news.json", function (data) { 
+                var n = '';
+                var i = 0;
+                $.each(data, function (key, value) {
+                  if (i < 10) {
+                    n += '<div class="pub_obj">';
+                    n += '<h5 class="pub_title">' +  
+                      value.title + '</h5>';
+                    n += '<p>' +  
+                      value.news + '</p>';
+                    n += '<p>' +
+                      value.date + '</p>';
+                    n += '</div>';
+                  }
+                  i += 1;
+                }); 
+                $("#news_section").append(n); 
+            }); 
+          }); 
+        </script> 
+      </section>
+
+      <footer>
+
+      </footer>
 
     </main>
 

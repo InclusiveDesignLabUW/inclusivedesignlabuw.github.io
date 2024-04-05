@@ -1,20 +1,24 @@
 [
   {
-    "title": "Introduction to Quantum Computing",
-    "authors": ["Alice Smith", "Bob Johnson"],
-    "year": 2022,
+    "title": "“Caption It in an Accessible Way That Is Also Enjoyable”: Characterizing User-Driven Captioning Practices on TikTok",
+    "authors": ["Emma McDonnell", "Tessa Eagle", "Pitch Sinlapanuntakul", "Soo Hyun Moon", "Kathryn Ringland", "Jon Froehlich", "Leah Findlater"],
+    "conference": "CHI",
+    "year": 2024,
     "image": "lablogo.png",
-    "alt": "Head shot of Leah",
-    "pdf": "",
+    "alt": "",
+    "pdf": "https://ej-mcdonnell.github.io/Caption%20It%20In%20An%20Accessible%20Way%20That%20is%20Also%20Enjoyable%20--%20accessible%20PDF.pdf",
+    "abstract": "As user-generated video dominates media landscapes, it poses an accessibility challenge. While disability advocacy groups globally have secured hard-won accessibility regulations for broadcast media, no such regulation of user-generated content exists. Yet, one major player in this shift, TikTok, has a culture of user-generated, creative captioning. We sought to understand how TikTok videos are captioned and the impact current practices have on those who need captions to access audio content. Therefore, we conducted a content analysis of 300 open-captioned TikToks and contextualized these findings by interviewing nine caption users. We found that the current state of TikTok captioning does facilitate access to the platform but that a user-generated, social video-specific standard for captioning could improve caption quality and expand access. We contribute an empirical account of the state of TikTok captioning and outline steps toward a standard for user-generated captioning.",
     "feature": true
   },
   {
-    "title": "Machine Learning Algorithms",
-    "authors": ["Carl Brown", "David Lee"],
-    "year": 2021,
-    "image": "leah.png",
-    "alt": "Head shot of Leah",
+    "title": "Designing Accessible Obfuscation Support for Blind Individuals’ Visual Privacy Management",
+    "authors": ["Lotus Zhang", "Abigale Stangl", "Tanusree Sharma", "Yu-Yun Tseng", "Inan Xu", "Danna Gurari", "Yang Wang", "Leah Findlater"],
+    "conference": "CHI",
+    "year": 2024,
+    "image": "lablogo.png",
+    "alt": "",
     "pdf": "",
-    "feature": false
+    "abstract": "Blind individuals commonly share photos in everyday life. Despite substantial interest from the blind community in being able to independently obfuscate private information in photos, existing tools are designed without their inputs. In this study, we prototyped a preliminary screen reader-accessible obfuscation interface to probe for feedback and design insights. We implemented a version of the prototype through off-the-shelf AI models (e.g., SAM, BLIP2, ChatGPT) and a Wizard-of-Oz version that provides human-authored guidance. Through a user study with 12 blind participants who obfuscated diverse private photos using the prototype, we uncovered how they understood and approached visual private content manipulation, how they reacted to frictions such as inaccuracy with existing AI models and cognitive load, and how they envisioned such tools to be better designed to support their needs (e.g., guidelines for describing visual obfuscation effects, co-creative interaction design that respects blind users’ agency).",
+    "feature": true
   }
 ]

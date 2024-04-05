@@ -4,15 +4,35 @@ body {
 }
 
 h1 {
-  padding-top: 24px;
+  padding: 24px 12px 12px 20px;
+  background-color: #4b2e83;
+  margin-left: 200px;
+  color: white;
 }
 
 h2 {
-  padding-top: 16px;
+  margin-top: 24px !important;
+  margin-bottom: 12px !important;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+h2::after {
+  content: '';
+  flex: 1;
+  margin-left: 20px;
+  height: 2px;
+  background-color: #aaa;
 }
 
 section {
   overflow: hidden;
+}
+
+.affiliation {
+  height: 180px;
+  padding-right: 20px;
 }
 
 /* People */
@@ -20,7 +40,6 @@ section {
 .person_obj {
   width: 33% !important;
   float: left;
-  padding-bottom: 16px;
 }
 
 .person_img {
@@ -39,6 +58,7 @@ section {
 
 .row {
   width: 100%;
+  padding-bottom: 16px;
 }
 
 .alum_person_obj {
@@ -58,7 +78,13 @@ section {
 
 /* Publications */
 
-.paper_img {
+.pub_obj {
+  width: 100% !important;
+  float: left;
+  padding-bottom: 16px;
+}
+
+.pub_img {
   float: left;
   padding: 0px 20px 0px 0px;
   width: 160px;
@@ -81,6 +107,7 @@ section {
   color: black;
   padding: 16px 24px 16px 24px;
   text-decoration: none;
+  font-size: 20px;
 }
 
 .sidebar a:hover:not(.active) {
@@ -90,8 +117,7 @@ section {
 
 main {
   margin-left: 200px;
-  padding: 1px 16px;
-  height: 1000px;
+  padding: 0px 16px 16px 16px;
 }
 
 @media screen and (max-width: 700px) {

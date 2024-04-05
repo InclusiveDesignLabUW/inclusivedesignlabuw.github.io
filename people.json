@@ -4,7 +4,7 @@
     "alt": "",
     "name": "Leah Findlater",
     "jobTitle": "Associate Professor",
-    "bio": "Leah is an associate professor in Human Centered Design and Engineering at the University of Washington. She is also an adjunct associate professor in Computer Science and Engineering, an affiliate professor in Disability Studies, and an associate director of UW CREATE (Center for Research and Education on Accessible Technology and Experiences.",
+    "bio": "Leah is an associate professor in Human Centered Design and Engineering at the University of Washington. She is also an adjunct associate professor in Computer Science and Engineering, an affiliate professor in Disability Studies, and an associate director of UW CREATE (Center for Research and Education on Accessible Technology and Experiences).",
     "pronouns": "",
     "links": {
       "website_url": "http://faculty.washington.edu/leahkf/",
@@ -80,6 +80,22 @@
     "alum": false
   },
   {
+    "image": "lucy.jpg",
+    "alt": "",
+    "name": "Lucy Jiang",
+    "jobTitle": "Incoming PhD Student",
+    "bio": "asdfasdfasdfasdfasdf.",
+    "pronouns": "she/her",
+    "links": {
+      "website_url": "https://lucjia.github.io/",
+      "scholar_url": "https://scholar.google.com/citations?user=-XzH6PkAAAAJ&hl=en",
+      "github_url": "https://github.com/lucjia",
+      "twitter_url": "https://twitter.com/lucyajiang",
+      "email": "lucjia@uw.edu"
+    },
+    "alum": false
+  },
+  {
     "image": "abigale.png",
     "alt": "",
     "name": "Abigale Stangl",
@@ -96,19 +112,52 @@
     "alum": true
   },
   {
-    "image": "lucy.jpg",
+    "image": "dhruv.jpg",
     "alt": "",
-    "name": "Lucy Jiang",
+    "name": "Dhruv Jain",
     "jobTitle": "PhD Student",
-    "bio": "asdfasdfasdfasdfasdf.",
-    "pronouns": "",
-    "links": {
-      "website_url": "https://lucjia.github.io/",
-      "scholar_url": "https://scholar.google.com/citations?user=-XzH6PkAAAAJ&hl=en",
-      "github_url": "https://github.com/lucjia",
-      "twitter_url": "https://twitter.com/lucyajiang",
-      "email": "lucjia@uw.edu"
-    },
+    "alum": true
+  },
+  {
+    "image": "alison.jpg",
+    "alt": "",
+    "name": "Alison Smith-Renner",
+    "jobTitle": "PhD Student",
+    "alum": true
+  },
+  {
+    "image": "meethu.png",
+    "alt": "",
+    "name": "Meethu Malu",
+    "jobTitle": "PhD Student",
+    "alum": true
+  },
+  {
+    "image": "uran.jpg",
+    "alt": "",
+    "name": "Uran Oh",
+    "jobTitle": "PhD Student",
+    "alum": true
+  },
+  {
+    "image": "alisha.jpg",
+    "alt": "",
+    "name": "Alisha Pradhan",
+    "jobTitle": "MS Thesis Student",
+    "alum": true
+  },
+  {
+    "image": "kristin.jpg",
+    "alt": "",
+    "name": "Kristin Williams",
+    "jobTitle": "MS Thesis Student",
+    "alum": true
+  },
+  {
+    "image": "maia.jpg",
+    "alt": "",
+    "name": "Maia Naftali",
+    "jobTitle": "MS Thesis Student",
     "alum": true
   }
 ]
