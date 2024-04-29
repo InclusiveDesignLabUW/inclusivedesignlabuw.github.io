@@ -20,5 +20,16 @@
     "link": "",
     "abstract": "Blind individuals commonly share photos in everyday life. Despite substantial interest from the blind community in being able to independently obfuscate private information in photos, existing tools are designed without their inputs. In this study, we prototyped a preliminary screen reader-accessible obfuscation interface to probe for feedback and design insights. We implemented a version of the prototype through off-the-shelf AI models (e.g., SAM, BLIP2, ChatGPT) and a Wizard-of-Oz version that provides human-authored guidance. Through a user study with 12 blind participants who obfuscated diverse private photos using the prototype, we uncovered how they understood and approached visual private content manipulation, how they reacted to frictions such as inaccuracy with existing AI models and cognitive load, and how they envisioned such tools to be better designed to support their needs (e.g., guidelines for describing visual obfuscation effects, co-creative interaction design that respects blind users’ agency).",
     "feature": true
+  },
+  {
+    "title": "'Easier or Harder, Depending on Who the Hearing Person Is': Codesigning Videoconferencing Tools for Small Groups with Mixed Hearing Status",
+    "authors": ["Emma McDonnell", "Soo Hyun Moon", "Lucy Jiang", "Steven M. Goodman", "Raja Kushalnagar", "Jon Froehlich", "Leah Findlater"],
+    "conference": "CHI",
+    "year": 2023,
+    "image": "mcdonnellchi2023.png",
+    "alt": "A video prototype still for speaker identity and overlap, showing three people in a zoom conversation, two of whom, Emma and Lucy, are talking at the same time. This is indicated by showing both of their names in the speaker identification in the captions and a translucent gray box in the middle of the screen that reads multiple speaker warning",
+    "link": "https://ej-mcdonnell.github.io/Easier%20or%20Harder%20Depending%20on%20Who%20the%20Hearing%20Person%20Is%20-%20Accessible%20Final%20PDF.pdf",
+    "abstract":"With improvements in automated speech recognition and increased use of videoconferencing, real-time captioning has changed significantly. This shift toward broadly available but less accurate captioning invites exploration of the role hearing conversation partners play in shaping the accessibility of a conversation to d/Deaf and hard of hearing (DHH) captioning users. While recent work has explored DHH individuals’ videoconferencing experiences with captioning, we focus on established groups’ current practices and priorities for future tools to support more accessible online conversations. Our study consists of three codesign sessions, conducted with four groups (17 participants total, 10 DHH, 7 hearing). We found that established groups crafted social accessibility norms that met their relational contexts. We also identify promising directions for future captioning design, including the need to standardize speaker identification and customization, opportunities to provide behavioral feedback during a conversation, and ways that videoconferencing platforms could enable groups to set and share norms.",
+    "feature": true
   }
 ]
