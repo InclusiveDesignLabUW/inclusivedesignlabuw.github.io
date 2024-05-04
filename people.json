@@ -7,10 +7,10 @@
     "bio": "Leah is an associate professor in Human Centered Design and Engineering at the University of Washington. She is also an adjunct associate professor in Computer Science and Engineering, an affiliate professor in Disability Studies, and an associate director of UW CREATE (Center for Research and Education on Accessible Technology and Experiences).",
     "pronouns": "",
     "links": {
-      "website_url": "http://faculty.washington.edu/leahkf/",
-      "scholar_url": "https://scholar.google.com/citations?user=NeDnx2EAAAAJ&hl=en",
-      "github_url": "",
-      "twitter_url": "",
+      "website": "http://faculty.washington.edu/leahkf/",
+      "scholar": "https://scholar.google.com/citations?user=NeDnx2EAAAAJ&hl=en",
+      "github": "",
+      "twitter": "",
       "email": "leahkf@uw.edu"
     },
     "alum": false
@@ -23,10 +23,10 @@
     "bio": "asdfasdfasdfasdfasdf.",
     "pronouns": "",
     "links": {
-      "website_url": "",
-      "scholar_url": "https://scholar.google.com/citations?user=03HVZhQAAAAJ&hl=en",
-      "github_url": "",
-      "twitter_url": "",
+      "website": "",
+      "scholar": "https://scholar.google.com/citations?user=03HVZhQAAAAJ&hl=en",
+      "github": "",
+      "twitter": "",
       "email": "smgoodmn@uw.edu"
     },
     "alum": false
@@ -39,10 +39,10 @@
     "bio": "Emma is a 5th year PhD candidate in Human Centered Design and Engineering. Her resesarch explores how to design communication technologies that foster collective access",
     "pronouns": "she/her",
     "links": {
-      "website_url": "https://ej-mcdonnell.github.io/",
-      "scholar_url": "https://scholar.google.com/citations?user=qFOqKHYAAAAJ&hl=en",
-      "github_url": "",
-      "twitter_url": "https://twitter.com/ej_mcdonnell",
+      "website": "https://ej-mcdonnell.github.io/",
+      "scholar": "https://scholar.google.com/citations?user=qFOqKHYAAAAJ&hl=en",
+      "github": "",
+      "twitter": "https://twitter.com/ej_mcdonnell",
       "email": "ejm249@uw.edu"
     },
     "alum": false
@@ -55,10 +55,10 @@
     "bio": "asdfasdfasdfasdfasdf.",
     "pronouns": "",
     "links": {
-      "website_url": "https://hasumonn.github.io/",
-      "scholar_url": "https://scholar.google.com/citations?user=o2ScIzUAAAAJ&hl=en",
-      "github_url": "",
-      "twitter_url": "",
+      "website": "https://hasumonn.github.io/",
+      "scholar": "https://scholar.google.com/citations?user=o2ScIzUAAAAJ&hl=en",
+      "github": "",
+      "twitter": "",
       "email": "hanziz@uw.edu"
     },
     "alum": false
@@ -71,10 +71,10 @@
     "bio": "asdfasdfasdfasdfasdf.",
     "pronouns": "",
     "links": {
-      "website_url": "",
-      "scholar_url": "https://scholar.google.com/citations?user=zcUjF8IAAAAJ&hl=en",
-      "github_url": "",
-      "twitter_url": "",
+      "website": "",
+      "scholar": "https://scholar.google.com/citations?user=zcUjF8IAAAAJ&hl=en",
+      "github": "",
+      "twitter": "",
       "email": ""
     },
     "alum": false
@@ -87,10 +87,10 @@
     "bio": "asdfasdfasdfasdfasdf.",
     "pronouns": "she/her",
     "links": {
-      "website_url": "https://lucjia.github.io/",
-      "scholar_url": "https://scholar.google.com/citations?user=-XzH6PkAAAAJ&hl=en",
-      "github_url": "https://github.com/lucjia",
-      "twitter_url": "https://twitter.com/lucyajiang",
+      "website": "https://lucjia.github.io/",
+      "scholar": "https://scholar.google.com/citations?user=-XzH6PkAAAAJ&hl=en",
+      "github": "https://github.com/lucjia",
+      "twitter": "https://twitter.com/lucyajiang",
       "email": "lucjia@uw.edu"
     },
     "alum": false
@@ -103,10 +103,10 @@
     "bio": "asdfasdfasdfasdfasdf.",
     "pronouns": "",
     "links": {
-      "website_url": "https://abigalestangl.com/",
-      "scholar_url": "https://scholar.google.com/citations?user=55redA8AAAAJ&hl=en",
-      "github_url": "",
-      "twitter_url": "",
+      "website": "https://abigalestangl.com/",
+      "scholar": "https://scholar.google.com/citations?user=55redA8AAAAJ&hl=en",
+      "github": "",
+      "twitter": "",
       "email": "abigale.stangl@design.gatech.edu"
     },
     "alum": true
