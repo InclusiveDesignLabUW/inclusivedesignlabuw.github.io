@@ -1,7 +1,7 @@
 [
   {
     "image": "leah.png",
-    "alt": "",
+    "alt": "Leah Findlater",
     "name": "Leah Findlater",
     "jobTitle": "Associate Professor",
     "bio": "Leah is an associate professor in Human Centered Design and Engineering at the University of Washington. She is also an adjunct associate professor in Computer Science and Engineering, an affiliate professor in Disability Studies, and an associate director of UW CREATE (Center for Research and Education on Accessible Technology and Experiences).",
@@ -17,13 +17,13 @@
   },
   {
     "image": "steven.jpg",
-    "alt": "",
+    "alt": "Steven Goodman",
     "name": "Steven Goodman",
-    "jobTitle": "PhD Student",
-    "bio": "asdfasdfasdfasdfasdf.",
+    "jobTitle": "PhD Candidate",
+    "bio": "6th year PhD candidate",
     "pronouns": "",
     "links": {
-      "website": "",
+      "website": "https://stevenmgoodman.com/",
       "scholar": "https://scholar.google.com/citations?user=03HVZhQAAAAJ&hl=en",
       "github": "",
       "twitter": "",
@@ -49,10 +49,10 @@
   },
   {
     "image": "lotus.jpg",
-    "alt": "",
+    "alt": "Lotus Zhang",
     "name": "Lotus Zhang",
-    "jobTitle": "PhD Student",
-    "bio": "asdfasdfasdfasdfasdf.",
+    "jobTitle": "PhD Candidate",
+    "bio": "5th year PhD candidate",
     "pronouns": "",
     "links": {
       "website": "https://hasumonn.github.io/",
@@ -65,10 +65,10 @@
   },
   {
     "image": "gina.jpg",
-    "alt": "",
+    "alt": "Gina Clepper",
     "name": "Gina Clepper",
     "jobTitle": "PhD Student",
-    "bio": "asdfasdfasdfasdfasdf.",
+    "bio": "1st year PhD student",
     "pronouns": "",
     "links": {
       "website": "",
@@ -81,10 +81,10 @@
   },
   {
     "image": "lucy.jpg",
-    "alt": "",
+    "alt": "A head shot of Lucy, a Chinese American woman with long black hair, smiling in front of light pink cherry blossom trees. She wears a denim jacket, hoop earrings, and a necklace.",
     "name": "Lucy Jiang",
     "jobTitle": "Incoming PhD Student",
-    "bio": "asdfasdfasdfasdfasdf.",
+    "bio": "Lucy is currently a Master's student at Cornell University. Her research focuses on subjective media accessibility (e.g., videos, images, art) and disability representation.",
     "pronouns": "she/her",
     "links": {
       "website": "https://lucjia.github.io/",
@@ -97,7 +97,7 @@
   },
   {
     "image": "abigale.png",
-    "alt": "",
+    "alt": "Abigale Stangl",
     "name": "Abigale Stangl",
     "jobTitle": "Postdoctoral Researcher",
     "bio": "asdfasdfasdfasdfasdf.",
@@ -113,49 +113,49 @@
   },
   {
     "image": "dhruv.jpg",
-    "alt": "",
+    "alt": "Dhruv Jain",
     "name": "Dhruv Jain",
     "jobTitle": "PhD Student",
     "alum": true
   },
   {
     "image": "alison.jpg",
-    "alt": "",
+    "alt": "Alison Smith-Renner",
     "name": "Alison Smith-Renner",
     "jobTitle": "PhD Student",
     "alum": true
   },
   {
     "image": "meethu.png",
-    "alt": "",
+    "alt": "Meethu Malu",
     "name": "Meethu Malu",
     "jobTitle": "PhD Student",
     "alum": true
   },
   {
     "image": "uran.jpg",
-    "alt": "",
+    "alt": "Uran Oh",
     "name": "Uran Oh",
     "jobTitle": "PhD Student",
     "alum": true
   },
   {
     "image": "alisha.jpg",
-    "alt": "",
+    "alt": "Alisha Pradhan",
     "name": "Alisha Pradhan",
     "jobTitle": "MS Thesis Student",
     "alum": true
   },
   {
     "image": "kristin.jpg",
-    "alt": "",
+    "alt": "Kristin Williams",
     "name": "Kristin Williams",
     "jobTitle": "MS Thesis Student",
     "alum": true
   },
   {
     "image": "maia.jpg",
-    "alt": "",
+    "alt": "Maia Naftali",
     "name": "Maia Naftali",
     "jobTitle": "MS Thesis Student",
     "alum": true

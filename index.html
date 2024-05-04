@@ -76,7 +76,7 @@
                       value.links.scholar + '" target="_blank"><img src="images/logos/GoogleScholar.png" class="social_icon" alt="Google Scholar logo"></a>';
                     person += '<a href="' +
                       value.links.website + '" target="_blank"><img src="images/logos/Web.png" class="social_icon" id="rounded_icon" alt="Website icon"></a>';
-                    person += '</div>';
+                    person += '</div> <br>';
                   } 
                 }); 
                 $("#leah").append(person); 
@@ -117,7 +117,7 @@
                       value.links.website + '" target="_blank"><img src="images/logos/Web.png" class="social_icon" id="rounded_icon" alt="Website icon"></a>';
                     person += '</div>';
                     if (item % 3 == 2) {
-                      person += '</div>';
+                      person += '</div> <br>';
                     }
                     item += 1;
                   } 
@@ -163,7 +163,7 @@
 
       <section id="publication">
       <h2 id="publications">Selected Publications</h2>
-        <p>For full publication listings, please visit individual members’ webpages or Google Scholar pages.</p>
+        <p>For full publication listings, please visit individual members' webpages or Google Scholar pages.</p>
         <script> 
           $(document).ready(function () { 
             $.getJSON("publications.json", function (data) { 
