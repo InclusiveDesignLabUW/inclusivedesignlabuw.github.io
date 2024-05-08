@@ -49,16 +49,16 @@
   },
   {
     "image": "lotus.jpg",
-    "alt": "Lotus Zhang",
+    "alt": "A head shot of Lotus, a Chinese woman with long black hair and round glasses, wearing a black jacket and a sky blue t-shirt, smiling in front of a big cherry blossom tree with green leaves",
     "name": "Lotus Zhang",
     "jobTitle": "PhD Candidate",
-    "bio": "5th year PhD candidate in HCDE",
-    "pronouns": "",
+    "bio": "Lotus is a 5th year PhD candidate in HCDE. She conducts HCI and accessibility research with a focus on supporting creative pursuits and leisure of people with different abilities through design. ",
+    "pronouns": "she/her",
     "links": {
       "website": "https://hasumonn.github.io/",
       "scholar": "https://scholar.google.com/citations?user=o2ScIzUAAAAJ&hl=en",
-      "github": "",
-      "twitter": "",
+      "github": "https://github.com/hasumonn",
+      "twitter": "https://twitter.com/hasulooo",
       "email": "hanziz@uw.edu"
     },
     "alum": false
