@@ -32,22 +32,6 @@
     "alum": false
   },
   {
-    "image": "emma.jpg",
-    "alt": "Emma, a white woman with short red hair and round black glasses, sits near the water, wearing a light purple blazer over a black tank top, smiling, not looking directly at the camera",
-    "name": "Emma McDonnell",
-    "jobTitle": "PhD Candidate",
-    "bio": "Emma is a 5th year PhD candidate in Human Centered Design and Engineering. Her research explores how to design communication technologies that foster collective access.",
-    "pronouns": "she/her",
-    "links": {
-      "website": "https://ej-mcdonnell.github.io/",
-      "scholar": "https://scholar.google.com/citations?user=qFOqKHYAAAAJ&hl=en",
-      "github": "",
-      "twitter": "https://twitter.com/ej_mcdonnell",
-      "email": "ejm249@uw.edu"
-    },
-    "alum": false
-  },
-  {
     "image": "lotus.jpg",
     "alt": "A head shot of Lotus, a Chinese woman with long black hair and round glasses, wearing a black jacket and a sky blue t-shirt, smiling in front of a big cherry blossom tree with green leaves",
     "name": "Lotus Zhang",
@@ -94,6 +78,38 @@
       "email": "lucjia@uw.edu"
     },
     "alum": false
+  },
+  {
+    "image": "avery.jpg",
+    "alt": "A head shot of Avery, a white, femme-presenting person with light brown hair shaved short on one side, smiling. The are wearing a grey shrit and green blazer",
+    "name": "Avery Mack",
+    "jobTitle": "Postdoctoral Researcher",
+    "bio": "Lucy is currently a postdoctoral research in Human Centered Design and Engineering. Their research focuses on mitigating disability bias in generative AI models.",
+    "pronouns": "they/them",
+    "links": {
+      "website": "https://kmack3.github.io/",
+      "scholar": "https://scholar.google.com/citations?user=229_QAEAAAAJ&hl=en&oi=ao",
+      "github": "https://github.com/kmack3",
+      "twitter": "",
+      "email": "kmack3@uw.edu"
+    },
+    "alum": false
+  },
+  {
+    "image": "emma.jpg",
+    "alt": "Emma, a white woman with short red hair and round black glasses, sits near the water, wearing a light purple blazer over a black tank top, smiling, not looking directly at the camera",
+    "name": "Emma McDonnell",
+    "jobTitle": "PhD Candidate",
+    "bio": "Emma is a 5th year PhD candidate in Human Centered Design and Engineering. Her research explores how to design communication technologies that foster collective access.",
+    "pronouns": "she/her",
+    "links": {
+      "website": "https://ej-mcdonnell.github.io/",
+      "scholar": "https://scholar.google.com/citations?user=qFOqKHYAAAAJ&hl=en",
+      "github": "",
+      "twitter": "https://twitter.com/ej_mcdonnell",
+      "email": "ejm249@uw.edu"
+    },
+    "alum": true
   },
   {
     "image": "abigale.png",
