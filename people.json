@@ -52,7 +52,7 @@
     "alt": "Gina Clepper",
     "name": "Gina Clepper",
     "jobTitle": "PhD Student",
-    "bio": "1st year PhD student in HCDE",
+    "bio": "2nd year PhD Student in HCDE",
     "pronouns": "",
     "links": {
       "website": "",
@@ -67,13 +67,13 @@
     "image": "lucy.jpg",
     "alt": "A head shot of Lucy, a Chinese American woman with long black hair, smiling in front of light pink cherry blossom trees. She wears a denim jacket, hoop earrings, and a necklace.",
     "name": "Lucy Jiang",
-    "jobTitle": "Incoming PhD Student",
-    "bio": "Lucy is currently a Master's student at Cornell University. Her research focuses on subjective media accessibility (e.g., videos, images, art) and disability representation.",
+    "jobTitle": "PhD Student",
+    "bio": "Lucy is a 1st year PhD student in HCDE. Her research focuses on subjective media accessibility (e.g., videos, images, art) and disability representation.",
     "pronouns": "she/her",
     "links": {
-      "website": "https://lucjia.github.io/",
+      "website": "https://lucyajiang.github.io/",
       "scholar": "https://scholar.google.com/citations?user=-XzH6PkAAAAJ&hl=en",
-      "github": "https://github.com/lucjia",
+      "github": "https://github.com/lucyajiang",
       "twitter": "https://twitter.com/lucyajiang",
       "email": "lucjia@uw.edu"
     },
@@ -81,7 +81,7 @@
   },
   {
     "image": "avery.jpg",
-    "alt": "A head shot of Avery, a white, femme-presenting person with light brown hair shaved short on one side, smiling. They are wearing a grey shrit and green blazer",
+    "alt": "A head shot of Avery, a white, femme-presenting person with light brown hair shaved short on one side, smiling. They are wearing a grey shirt and green blazer.",
     "name": "Avery Mack",
     "jobTitle": "Postdoctoral Researcher",
     "bio": "Avery is currently a postdoctoral research in Human Centered Design and Engineering. Their research focuses on mitigating disability bias in generative AI models.",
@@ -99,7 +99,7 @@
     "image": "emma.jpg",
     "alt": "Emma, a white woman with short red hair and round black glasses, sits near the water, wearing a light purple blazer over a black tank top, smiling, not looking directly at the camera",
     "name": "Emma McDonnell",
-    "jobTitle": "PhD Candidate",
+    "jobTitle": "PhD Student",
     "bio": "Emma is a 5th year PhD candidate in Human Centered Design and Engineering. Her research explores how to design communication technologies that foster collective access.",
     "pronouns": "she/her",
     "links": {
