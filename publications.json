@@ -5,7 +5,7 @@
     "conference": "ASSETS Workshop (The Future of Urban Accessibility: The Role of AI)",
     "year": 2024,
     "image": "jiangassets2024.jpg",
-    "alt": "Three images from left to right, showing a mural, mosaic, and sculpture. The mural features brightly colored overlapping polygons in the background and reads “CREATIVITY IS IN ALL OF US” in white capital letters. The mosaic shows a brown-gray Weimaraner dog looking off to the right and wearing a yellow quilted jacket. The sculpture is a 14-foot tall wooden troll, wearing a necklace made of birdhouses and posing with its two arms wrapped around tall trees next to it.",
+    "alt": "Examples to show a range of public art types: murals, mosaic, sculpture, and graffiti art.",
     "link": "https://doi.org/10.48550/arXiv.2410.20571",
     "abstract": "Public artwork, from vibrant wall murals to captivating sculptures, can enhance the aesthetic of urban spaces, foster a sense of community and cultural identity, and help attract visitors. Despite its benefits, most public art is visual, making it often inaccessible to blind and low vision (BLV) people. In this workshop paper, we first draw on art literature to help define the space of public art, identify key differences with curated art shown in museums or galleries, and discuss implications for accessibility. We then enumerate how existing art accessibility techniques may (or may not) transfer to urban art spaces. We close by presenting future research directions and reflecting on the growing role of AI in making art accessible.",
     "feature": true
@@ -15,7 +15,7 @@
     "conference": "ASSETS",
     "year": 2024,
     "image": "mcdonnellassets2024.png",
-    "alt": "A line graph of captioning papers published per year, with year on the x axis and number of papers on the y axis. There is a steady increase over time, from 3 publications in 2013 to 12 in 2023, but some downward blips. For instance, there were 11 papers in 2021, 6 in 2022, and 12 in 2023.",
+    "alt": "Line graph showing the number of captioning papers published per year with an increasing trend from 3 papers in 2013 to 12 in 2023.",
     "link": "https://dl.acm.org/doi/10.1145/3663548.3675649",
     "abstract": "A significant body of human-computer interaction accessibility research explores ways technology can improve communication access. Yet, this research infrequently engages other fields with complementary expertise – namely disability studies, Deaf studies, disability justice, and communication studies. To facilitate interdisciplinary communication access research, we synthesize thinking from these four fields into a framework of collective communication access. We then analyze human-centered accessibility-focused captioning research published between 2013 and 2023, investigating how collective communication access principles are or are not employed. We find that, while the majority of captioning research does not demonstrate a collective communication access approach, it reaches a baseline of targeting change toward inaccessible technical infrastructures and engaging d/Deaf and hard of hearing people as captioning experts. The small body of work that aligns with our framework, however, demonstrates that designing to change discriminatory social conditions and engaging conversation partners in access is a promising direction for future work.",
     "feature": true
@@ -25,7 +25,7 @@
     "conference": "CHI",
     "year": 2024,
     "image": "mcdonnellchi2024.png",
-    "alt": "Simulated screenshot of a TikTok illustrating the difference between open captions (top text of the video) and closed captions (bottom of video). Closed captions appear at the bottom of a TikTok video as white text on a translucent black background and can be toggled on and off. Open captions can be any color, size, font, and in any location on the screen and are permanently part of a video.",
+    "alt": "Simulated screenshot of a TikTok showing closed captions at the bottom as white text on a translucent black background and open captions that are in a larger and angled styled white font on the top half of the video.",
     "link": "https://ej-mcdonnell.github.io/Caption%20It%20In%20An%20Accessible%20Way%20That%20is%20Also%20Enjoyable%20--%20accessible%20PDF.pdf",
     "abstract": "As user-generated video dominates media landscapes, it poses an accessibility challenge. While disability advocacy groups globally have secured hard-won accessibility regulations for broadcast media, no such regulation of user-generated content exists. Yet, one major player in this shift, TikTok, has a culture of user-generated, creative captioning. We sought to understand how TikTok videos are captioned and the impact current practices have on those who need captions to access audio content. Therefore, we conducted a content analysis of 300 open-captioned TikToks and contextualized these findings by interviewing nine caption users. We found that the current state of TikTok captioning does facilitate access to the platform but that a user-generated, social video-specific standard for captioning could improve caption quality and expand access. We contribute an empirical account of the state of TikTok captioning and outline steps toward a standard for user-generated captioning.",
     "feature": true
@@ -35,7 +35,7 @@
     "conference": "CHI",
     "year": 2024,
     "image": "zhangchi2024.png",
-    "alt": "Screenshot of the paper title and abstract.",
+    "alt": "Sequence of three screeshots from experimental app showing a user editing an image of mangoes.",
     "link": "https://dl.acm.org/doi/10.1145/3613904.3642713",
     "abstract": "Blind individuals commonly share photos in everyday life. Despite substantial interest from the blind community in being able to independently obfuscate private information in photos, existing tools are designed without their inputs. In this study, we prototyped a preliminary screen reader-accessible obfuscation interface to probe for feedback and design insights. We implemented a version of the prototype through off-the-shelf AI models (e.g., SAM, BLIP2, ChatGPT) and a Wizard-of-Oz version that provides human-authored guidance. Through a user study with 12 blind participants who obfuscated diverse private photos using the prototype, we uncovered how they understood and approached visual private content manipulation, how they reacted to frictions such as inaccuracy with existing AI models and cognitive load, and how they envisioned such tools to be better designed to support their needs (e.g., guidelines for describing visual obfuscation effects, co-creative interaction design that respects blind users’ agency).",
     "feature": true
@@ -45,7 +45,7 @@
     "conference": "CHI",
     "year": 2023,
     "image": "mcdonnellchi2023.png",
-    "alt": "A video prototype still for speaker identity and overlap, showing three people in a zoom conversation, two of whom, Emma and Lucy, are talking at the same time. This is indicated by showing both of their names in the speaker identification in the captions and a translucent gray box in the middle of the screen that reads multiple speaker warning",
+    "alt": "A video prototype still showing three people in a zoom conversation with a warning that multiple people are speaking",
     "link": "https://ej-mcdonnell.github.io/Easier%20or%20Harder%20Depending%20on%20Who%20the%20Hearing%20Person%20Is%20-%20Accessible%20Final%20PDF.pdf",
     "abstract":"With improvements in automated speech recognition and increased use of videoconferencing, real-time captioning has changed significantly. This shift toward broadly available but less accurate captioning invites exploration of the role hearing conversation partners play in shaping the accessibility of a conversation to d/Deaf and hard of hearing (DHH) captioning users. While recent work has explored DHH individuals’ videoconferencing experiences with captioning, we focus on established groups’ current practices and priorities for future tools to support more accessible online conversations. Our study consists of three codesign sessions, conducted with four groups (17 participants total, 10 DHH, 7 hearing). We found that established groups crafted social accessibility norms that met their relational contexts. We also identify promising directions for future captioning design, including the need to standardize speaker identification and customization, opportunities to provide behavioral feedback during a conversation, and ways that videoconferencing platforms could enable groups to set and share norms.",
     "feature": true
