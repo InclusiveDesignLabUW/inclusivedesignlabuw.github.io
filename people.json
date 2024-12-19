@@ -1,7 +1,7 @@
 [
   {
     "image": "leah.jpg",
-    "alt": "A headshot of Leah, a white woman with brown shoulder-length hair and wearing a cream-colored sweater.",
+    "alt": "A head shot of Leah, a white woman with brown shoulder-length hair and wearing dark shirt with white dots.",
     "name": "Leah Findlater",
     "jobTitle": "Associate Professor",
     "bio": "Leah is an associate professor in Human Centered Design and Engineering at the University of Washington. She is also an adjunct associate professor in Computer Science and Engineering, an affiliate professor in Disability Studies, and an associate director of UW CREATE (Center for Research and Education on Accessible Technology and Experiences). In addition to her role at UW, she leads an AI and accessibility research team at Apple.",
@@ -17,7 +17,7 @@
   },
   {
     "image": "steven.jpg",
-    "alt": "Steven Goodman",
+    "alt": "Head shot of Steven Goodman",
     "name": "Steven Goodman",
     "jobTitle": "PhD Candidate",
     "bio": "6th year PhD candidate in HCDE",
@@ -29,7 +29,7 @@
       "twitter": "",
       "email": "smgoodmn@uw.edu"
     },
-    "alum": false
+    "alum": true
   },
   {
     "image": "lotus.jpg",
@@ -49,7 +49,7 @@
   },
   {
     "image": "gina.jpg",
-    "alt": "Gina Clepper",
+    "alt": "Head shot of Gina Clepper",
     "name": "Gina Clepper",
     "jobTitle": "PhD Student",
     "bio": "2nd year PhD Student in HCDE",
@@ -113,7 +113,7 @@
   },
   {
     "image": "abigale.png",
-    "alt": "Abigale Stangl",
+    "alt": "Head shot of Abigale Stangl",
     "name": "Abigale Stangl",
     "jobTitle": "Postdoctoral Researcher",
     "bio": "asdfasdfasdfasdfasdf.",
@@ -129,49 +129,49 @@
   },
   {
     "image": "dhruv.jpg",
-    "alt": "Dhruv Jain",
+    "alt": "Head shot of Dhruv Jain",
     "name": "Dhruv Jain",
     "jobTitle": "PhD Student",
     "alum": true
   },
   {
     "image": "alison.jpg",
-    "alt": "Alison Smith-Renner",
+    "alt": "Head shot of Alison Smith-Renner",
     "name": "Alison Smith-Renner",
     "jobTitle": "PhD Student",
     "alum": true
   },
   {
     "image": "meethu.png",
-    "alt": "Meethu Malu",
+    "alt": "Head shot of Meethu Malu",
     "name": "Meethu Malu",
     "jobTitle": "PhD Student",
     "alum": true
   },
   {
     "image": "uran.jpg",
-    "alt": "Uran Oh",
+    "alt": "Head shot of Uran Oh",
     "name": "Uran Oh",
     "jobTitle": "PhD Student",
     "alum": true
   },
   {
     "image": "alisha.jpg",
-    "alt": "Alisha Pradhan",
+    "alt": "Head shot of Alisha Pradhan",
     "name": "Alisha Pradhan",
     "jobTitle": "MS Thesis Student",
     "alum": true
   },
   {
     "image": "kristin.jpg",
-    "alt": "Kristin Williams",
+    "alt": "Head shot of Kristin Williams",
     "name": "Kristin Williams",
     "jobTitle": "MS Thesis Student",
     "alum": true
   },
   {
     "image": "maia.jpg",
-    "alt": "Maia Naftali",
+    "alt": "Head shot of Maia Naftali",
     "name": "Maia Naftali",
     "jobTitle": "MS Thesis Student",
     "alum": true
