@@ -110,11 +110,11 @@
                     person += '<p class="person_bio">' + 
                       value.bio + '</p>';
                     person += '<a href="mailto:' +
-                      value.links.email + '" target="_blank"><img src="images/logos/Email.png" class="social_icon" id="rounded_icon" alt="Email icon"></a>';
+                      value.links.email + '" target="_blank"><img src="images/logos/Email.png" class="social_icon" id="rounded_icon" alt="' + person.name + ' Email"></a>';
                     person += '<a href="' +
-                      value.links.scholar + '" target="_blank"><img src="images/logos/GoogleScholar.png" class="social_icon" alt="Google Scholar logo"></a>';
+                      value.links.scholar + '" target="_blank"><img src="images/logos/GoogleScholar.png" class="social_icon" alt="' + person.name + ' Google Scholar"></a>';
                     person += '<a href="' +
-                      value.links.website + '" target="_blank"><img src="images/logos/Web.png" class="social_icon" id="rounded_icon" alt="Website icon"></a>';
+                      value.links.website + '" target="_blank"><img src="images/logos/Web.png" class="social_icon" id="rounded_icon" alt="' + person.name + ' Website"></a>';
                     person += '</div>';
                     if (item % 3 == 2) {
                       person += '</div> <br>';
