@@ -1,6 +1,24 @@
 [
+    {
+    "title": "Inclusive Design Lab at CHI 25",
+    "news": "We congratulate several lab members and alum on their CHI publications: Clepper et al. (with Findlater and McDonnell), Goodman et al. (with McDonnell), Jiang et al., Jiang et al., Huffman et al. (with Mack).",
+    "date": "2024.11.07",
+    "link": "https://programs.sigchi.org/chi/2025"
+  },
+  // {
+  //   "title": "Inclusive Design Lab at CHI 25",
+  //   "news": "Our students Gina Clepper, Lucy Jiang and Lotus Zhang will be attending CHI in person this year, along with alumn Emmma McDonnell. We congratulate several lab members and alum on their CHI publications: <a href=\"https://doi.org/10.1145/3706598.3713294,\" target=\"_blank\">Clepper et al. (with Findlater and McDonnell)</a>, <a href=\"https://doi.org/10.1145/3706599.3719785,\" target=\"_blank\">Goodman et al. (with McDonnell)</a>, <a href=\"https://doi.org/10.1145/3706598.3713637\" target=\"_blank\">Jiang et al.</a>, <a href=\"https://doi.org/10.1145/3706599.3719966\" target=\"_blank\">Jiang et al.</a>, <a href=\"https://doi.org/10.1145/3706599.3719785,\" target=\"_blank\">Huffman et al. (with Mack)</a>, ",
+  //   "date": "2024.11.07",
+  //   "link": "https://programs.sigchi.org/chi/2025"
+  // },
   {
-    "title": "Inclusive Design Lab at ASSETS '24!",
+    "title": "Congratulations to Dr. Goodman!",
+    "news": "Dr. Steven Goodman successfully defended his dissertation, titled ‘Human-Centered Sound Recognition Tools for Deaf and Hard of Hearing Users.' Congratulations to Dr. Goodman!",
+    "date": "2024.11.07",
+    "link": "https://stevenmgoodman.com/"
+  },
+  {
+    "title": "Inclusive Design Lab at ASSETS '24",
     "news": "Our student Lucy Jiang and lab alum Emma McDonnell (co-virtual chair of ASSETS) will be attending ASSETS in person. Be sure to check out their papers (<a href=\"https://dl.acm.org/doi/10.1145/3663548.3675620\" target=\"_blank\">Jiang and Gualano et al.</a> and <a href=\"https://dl.acm.org/doi/10.1145/3663548.3675649\" target=\"_blank\">McDonnell et al.</a>)! Student Gina Clepper (virtual student volunteer) and postdoc Avery Mack will be attending virtually. You can find Avery's paper here (<a href=\"https://dl.acm.org/doi/10.1145/3663548.3675640\" target=\"_blank\">Mack et al.</a>).",
     "date": "2024.10.23",
     "link": "https://assets24.sigaccess.org/program/accepted-papers/"
@@ -12,7 +30,7 @@
     "link": "https://ej-mcdonnell.github.io"
   },
   {
-    "title": "Inclusive Design Lab at CHI '24!",
+    "title": "Inclusive Design Lab at CHI '24",
     "news": "Current PhD students Lotus Zhang and Emma McDonnell and incoming PhD student Lucy Jiang will present papers at CHI 2024, discussing visual privacy and video accessibility for blind and low vision people, TikTok captioning, and experiences of ableism on social media.",
     "date": "2024.04.29",
     "link": "https://programs.sigchi.org/chi/2024"
