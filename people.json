@@ -3,8 +3,8 @@
     "image": "leah.jpg",
     "alt": "A head shot of Leah, a white woman with brown shoulder-length hair and wearing dark shirt with white dots.",
     "name": "Leah Findlater",
-    "jobTitle": "Associate Professor",
-    "bio": "Leah is an associate professor in Human Centered Design and Engineering at the University of Washington. She is also an adjunct associate professor in Computer Science and Engineering, an affiliate professor in Disability Studies, and an associate director of UW CREATE (Center for Research and Education on Accessible Technology and Experiences). In addition to her role at UW, she leads an AI and accessibility research team at Apple.",
+    "jobTitle": "Professor",
+    "bio": "Leah is a professor in Human Centered Design and Engineering at the University of Washington. She is also an adjunct professor in Computer Science and Engineering, an affiliate professor in Disability Studies, and an associate director of UW CREATE (Center for Research and Education on Accessible Technology and Experiences). In addition to her role at UW, she leads an AI and accessibility research team at Apple.",
     "pronouns": "",
     "links": {
       "website": "http://faculty.washington.edu/leahkf/",
@@ -16,27 +16,11 @@
     "alum": false
   },
   {
-    "image": "steven.jpg",
-    "alt": "Head shot of Steven Goodman",
-    "name": "Steven Goodman",
-    "jobTitle": "PhD Student",
-    "bio": "6th year PhD candidate in HCDE",
-    "pronouns": "",
-    "links": {
-      "website": "https://stevenmgoodman.com/",
-      "scholar": "https://scholar.google.com/citations?user=03HVZhQAAAAJ&hl=en",
-      "github": "",
-      "twitter": "",
-      "email": "smgoodmn@uw.edu"
-    },
-    "alum": true
-  },
-  {
     "image": "lotus.jpg",
     "alt": "A head shot of Lotus, a Chinese woman with long black hair and round glasses, wearing a black jacket and a sky blue t-shirt, smiling in front of a big cherry blossom tree with green leaves",
     "name": "Lotus Zhang",
     "jobTitle": "PhD Candidate",
-    "bio": "Lotus is a 5th year PhD candidate in HCDE. She conducts HCI and accessibility research with a focus on supporting creative pursuits and leisure of people with different abilities through design. ",
+    "bio": "Lotus is a 6th year PhD candidate in HCDE. She conducts HCI and accessibility research with a focus on supporting creative pursuits and leisure of people with different abilities through design. ",
     "pronouns": "she/her",
     "links": {
       "website": "https://hasumonn.github.io/",
@@ -52,7 +36,7 @@
     "alt": "Head shot of Gina Clepper",
     "name": "Gina Clepper",
     "jobTitle": "PhD Student",
-    "bio": "2nd year PhD Student in HCDE",
+    "bio": "3rd year PhD Student in HCDE",
     "pronouns": "",
     "links": {
       "website": "",
@@ -68,7 +52,7 @@
     "alt": "A head shot of Lucy, a Chinese American woman with long black hair, smiling in front of light pink cherry blossom trees. She wears a denim jacket, hoop earrings, and a necklace.",
     "name": "Lucy Jiang",
     "jobTitle": "PhD Student",
-    "bio": "Lucy is a 1st year PhD student in HCDE. Her research focuses on subjective media accessibility (e.g., videos, images, art) and disability representation.",
+    "bio": "Lucy is a 2nd year PhD student in HCDE. Her research focuses on subjective media accessibility (e.g., videos, images, art) and disability representation.",
     "pronouns": "she/her",
     "links": {
       "website": "https://lucyajiang.github.io/",
@@ -93,7 +77,23 @@
       "twitter": "",
       "email": "kmack3@uw.edu"
     },
-    "alum": false
+    "alum": true
+  },
+  {
+    "image": "steven.jpg",
+    "alt": "Head shot of Steven Goodman",
+    "name": "Steven Goodman",
+    "jobTitle": "PhD Candidate",
+    "bio": "6th year PhD candidate in HCDE",
+    "pronouns": "",
+    "links": {
+      "website": "https://stevenmgoodman.com/",
+      "scholar": "https://scholar.google.com/citations?user=03HVZhQAAAAJ&hl=en",
+      "github": "",
+      "twitter": "",
+      "email": "smgoodmn@uw.edu"
+    },
+    "alum": true
   },
   {
     "image": "emma.jpg",
@@ -116,7 +116,7 @@
     "alt": "Head shot of Abigale Stangl",
     "name": "Abigale Stangl",
     "jobTitle": "Postdoctoral Researcher",
-    "bio": "asdfasdfasdfasdfasdf.",
+    "bio": "",
     "pronouns": "",
     "links": {
       "website": "https://abigalestangl.com/",

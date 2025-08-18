@@ -1,5 +1,45 @@
 [
   {
+    "title": "VizXpress: ",
+    "authors": ["Lotus Zhang", "Zhuohao (Jerry) Zhang", "Gina Clepper", "Franklin Mingzhe Li", "Patrick Carrington", "Jacob O. Wobbrock", "Leah Findlater"],
+    "conference": "ASSETS",
+    "year": 2025,
+    "image": "",
+    "alt": "",
+    "link": "",
+    "abstract": "",
+    "feature": true
+  },{
+    "title": "Modeling Accessibility: Characterizing What We Mean By “Accessible”",
+    "authors": ["Kelly Avery Mack", "Jesse J. Martinez", "Aaleyah Lewis", "Jennifer Mankoff", "James Fogarty", "Leah Findlater", "Heather D. Evans", "Cynthia L. Bennett", "Emma J. McDonnell"],
+    "conference": "ASSETS",
+    "year": 2025,
+    "image": "",
+    "alt": "",
+    "link": "",
+    "abstract": "",
+    "feature": true
+  },{
+    "title": "“What Would I Want to Make? Probably Everything”: Practices and Speculations of Blind and Low Vision Tactile Graphics Creators",
+    "authors": ["Gina Clepper", "Emma J. McDonnell", "Leah Findlater", "Nadya Peek"],
+    "conference": "CHI",
+    "year": 2025,
+    "image": "clepperchi2025.jpg",
+    "alt": "",
+    "link": "https://doi.org/10.1145/3706598.3714173",
+    "abstract": "Tactile graphics communicate images and spatial information to blind and low vision (BLV) audiences via touch. However, designing and producing tactile graphics is laborious and often inaccessible to BLV people themselves. We interviewed 14 BLV adults with experience both using and creating tactile graphics to understand their current and desired practices. We found that tactile graphics are intensely valued by many, but that access to and fluency with tactile graphics are compounding challenges. To produce tactile graphics, BLV makers constantly navigate tradeoffs between accessible, low-fidelity craft materials and less accessible, high-fidelity equipment. Going forward, we argue that tactile graphics design and production should be made widely accessible and that tactile graphics themselves should be designed to be expressive and ubiquitous. Drawing from these design goals, we propose specific future tools with features for inclusive designing, sharing, and (re)production of tactile graphics.",
+    "feature": true
+  },{
+    "title": "SPECTRA: Personalizable Sound Recognition for Deaf and Hard of Hearing Users through Interactive Machine Learning",
+    "authors": ["Steven Goodman", "Emma J. McDonnell", "Jon E. Froehlich", "Leah Findlater"],
+    "conference": "CHI",
+    "year": 2025,
+    "image": "goodmanchi2025.jpg",
+    "alt": "",
+    "link": "https://doi.org/10.1145/3706598.3713294",
+    "abstract": "We introduce SPECTRA, a novel pipeline for personalizable sound recognition designed to understand DHH users’ needs when collecting audio data, creating a training dataset, and reasoning about the quality of a model. To evaluate the prototype, we recruited 12 DHH participants who trained personalized models for their homes. We investigated waveforms, spectrograms, interactive clustering, and data annotating to support DHH users throughout this workflow, and we explored the impact of a hands-on training session on their experience and attitudes toward sound recognition tools. Our findings reveal the potential for clustering visualizations and waveforms to enrich users’ understanding of audio data and refinement of training datasets, along with data annotations to promote varied data collection. We provide insights into DHH users’ experiences and perspectives on personalizing a sound recognition pipeline. Finally, we share design considerations for future interactive systems to support this population.",
+    "feature": true
+  },{
     "title": "Making Urban Art Accessible: Current Art Access Techniques, Design Considerations, and the Role of AI",
     "authors": ["Lucy Jiang", "Jon E. Froehlich", "Leah Findlater"],
     "conference": "ASSETS Workshop (The Future of Urban Accessibility: The Role of AI)",
