@@ -1,13 +1,19 @@
 [
-    {
+  {
+    "title": "Congratulations to Dr. Mack!",
+    "news": "Dr. Avery Mack has joined Apple as part of their AIML Residency Program, focusing on AI and accessibility! Congratulations!",
+    "date": "2025.07.14",
+    "link": "https://kmack3.github.io/"
+  },
+  {
     "title": "Inclusive Design Lab at CHI '25",
-    "news": "We congratulate several lab members and alumni on their CHI publications: Clepper et al. (with Findlater and McDonnell), Goodman et al. (with Findlater and McDonnell), Jiang et al., Jiang et al. (Late Breaking Work), and Huffman et al. (with Mack).",
+    "news": "We congratulate several lab members and alumni on their CHI publications: <a href=\"https://doi.org/10.1145/3706598.3714173\" target=\"_blank\">Clepper et al. (with Findlater and McDonnell)</a>, <a href=\"https://doi.org/10.1145/3706598.3713294\" target=\"_blank\">Goodman et al. (with Findlater and McDonnell)</a>, <a href=\"https://doi.org/10.1145/3706598.3713637\" target=\"_blank\">Jiang et al.</a>, <a href=\"https://doi.org/10.1145/3706599.3719966\" target=\"_blank\">Jiang et al. (Late Breaking Work)</a>, and <a href=\"https://doi.org/10.1145/3706599.3719785\" target=\"_blank\">Huffman et al. (with Mack)</a>.",
     "date": "2025.04.26",
     "link": "https://programs.sigchi.org/chi/2025"
   },
   {
     "title": "Congratulations to Dr. Goodman!",
-    "news": "Dr. Steven Goodman successfully defended his dissertation, titled ‘Human-Centered Sound Recognition Tools for Deaf and Hard of Hearing Users.' Congratulations to Dr. Goodman!",
+    "news": "Dr. Steven Goodman successfully defended his dissertation, titled 'Human-Centered Sound Recognition Tools for Deaf and Hard of Hearing Users.' Congratulations!",
     "date": "2024.11.07",
     "link": "https://stevenmgoodman.com/"
   },
