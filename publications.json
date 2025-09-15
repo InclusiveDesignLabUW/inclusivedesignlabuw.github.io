@@ -4,8 +4,8 @@
     "authors": ["Lotus Zhang", "Zhuohao (Jerry) Zhang", "Gina Clepper", "Franklin Mingzhe Li", "Patrick Carrington", "Jacob O. Wobbrock", "Leah Findlater"],
     "conference": "ASSETS",
     "year": 2025,
-    "image": "",
-    "alt": "",
+    "image": "comingsoon.png",
+    "alt": "Coming soon! in black text on white background",
     "link": "",
     "abstract": "",
     "feature": true
@@ -14,8 +14,8 @@
     "authors": ["Kelly Avery Mack", "Jesse J. Martinez", "Aaleyah Lewis", "Jennifer Mankoff", "James Fogarty", "Leah Findlater", "Heather D. Evans", "Cynthia L. Bennett", "Emma J. McDonnell"],
     "conference": "ASSETS",
     "year": 2025,
-    "image": "",
-    "alt": "",
+    "image": "comingsoon.png",
+    "alt": "Coming soon! in black text on white background",
     "link": "",
     "abstract": "",
     "feature": true
@@ -24,8 +24,8 @@
     "authors": ["Gina Clepper", "Emma J. McDonnell", "Leah Findlater", "Nadya Peek"],
     "conference": "CHI",
     "year": 2025,
-    "image": "clepperchi2025.jpg",
-    "alt": "",
+    "image": "clepperchi2025.png",
+    "alt": "Two photographs of tactile graphics. Left: a side view of a lobster is embossed into a shiny aluminum sheet. Many parts are labeled in braille, such as the claw, antennae, and legs. Right: a cross section of a human head in profile is shown on a white thermoformed sheet. Different regions of the brain are visible, including the cortex, cerebellum, and brain stem, and their position inside a human head. The different parts are labeled in braille.",
     "link": "https://doi.org/10.1145/3706598.3714173",
     "abstract": "Tactile graphics communicate images and spatial information to blind and low vision (BLV) audiences via touch. However, designing and producing tactile graphics is laborious and often inaccessible to BLV people themselves. We interviewed 14 BLV adults with experience both using and creating tactile graphics to understand their current and desired practices. We found that tactile graphics are intensely valued by many, but that access to and fluency with tactile graphics are compounding challenges. To produce tactile graphics, BLV makers constantly navigate tradeoffs between accessible, low-fidelity craft materials and less accessible, high-fidelity equipment. Going forward, we argue that tactile graphics design and production should be made widely accessible and that tactile graphics themselves should be designed to be expressive and ubiquitous. Drawing from these design goals, we propose specific future tools with features for inclusive designing, sharing, and (re)production of tactile graphics.",
     "feature": true
@@ -34,8 +34,8 @@
     "authors": ["Steven Goodman", "Emma J. McDonnell", "Jon E. Froehlich", "Leah Findlater"],
     "conference": "CHI",
     "year": 2025,
-    "image": "goodmanchi2025.jpg",
-    "alt": "",
+    "image": "goodmanchi2025.png",
+    "alt": "Figure shows a horizontal workflow in three stages, representing the steps in the Spectra pipeline. At left is a recording interface, with a stacked waveform and spectrogram visualization showing a door closing sound. In the middle is a larger interface showing four panels (presented left to right): a list of selectable sound classes including 'Background noise' and 'Phone', a grid of small icons to select training data, a three-dimensional clustering chart with icons correlating back to the list of sound classes, and in the final panel, a small button that says 'Train Model'. At right is a smaller cutout of the list of sounds, now with confidence scores as percentages; 'Door closing' is highlighted with 74 percent accuracy.",
     "link": "https://doi.org/10.1145/3706598.3713294",
     "abstract": "We introduce SPECTRA, a novel pipeline for personalizable sound recognition designed to understand DHH users’ needs when collecting audio data, creating a training dataset, and reasoning about the quality of a model. To evaluate the prototype, we recruited 12 DHH participants who trained personalized models for their homes. We investigated waveforms, spectrograms, interactive clustering, and data annotating to support DHH users throughout this workflow, and we explored the impact of a hands-on training session on their experience and attitudes toward sound recognition tools. Our findings reveal the potential for clustering visualizations and waveforms to enrich users’ understanding of audio data and refinement of training datasets, along with data annotations to promote varied data collection. We provide insights into DHH users’ experiences and perspectives on personalizing a sound recognition pipeline. Finally, we share design considerations for future interactive systems to support this population.",
     "feature": true

@@ -14,11 +14,12 @@
   <body>
     <nav class="sidebar">
       <a href="#home"><img src="images/logos/lablogo-vector.svg" alt="Inclusive Design Lab home" id="lab_logo_sidebar"></a>
-      <a href="#about">About</a>
-      <a href="#people">People</a>
-      <a href="#publications">Publications</a>
-      <a href="#news">News</a>
-      <p id="update_date">Last updated: August 2025</p>
+      <a data-scroll href="#about" class="active_hl">About</a>
+      <a data-scroll href="#people">People</a>
+      <a data-scroll href="#publications">Publications</a>
+      <a data-scroll href="#news">News</a>
+      <a data-scroll href="#apply">Apply</a>
+      <p id="update_date">Last updated: September 2025</p>
     </nav>
 
     <h1 id="home">Inclusive Design Lab</h1>
@@ -39,15 +40,15 @@
 
         <p>We are affiliated with:</p>
         <a href="https://www.hcde.washington.edu/" target="_blank">
-          <img class="affiliation" src="images/logos/HCDElogo2.jpg" alt="UW Human Centered Design and Engineering"></a>
+          <img class="affiliation" src="images/logos/HCDElogo2.jpg" alt="UW Human Centered Design and Engineering." style="width: 18%; margin-top: 1%;"></a>
         <a href="https://create.uw.edu/" target="_blank">
           <img class="affiliation" src="images/logos/CREATElogo.png" alt="UW CREATE, Center for Research and Education on Accessible Technology and Experiences."></a>
         <a href="https://dub.washington.edu/" target="_blank">
-          <img class="affiliation" src="images/logos/DUBlogo.png" alt="UW DUB, Design Use Build, group." style="height: 120px; margin-top: 32px; margin-left: 18px;"></a>
+          <img class="affiliation" src="images/logos/DUBlogo.png" alt="UW DUB, Design Use Build, group." style="margin-left: 1.5%; margin-top: 1%;"></a>
         <a href="https://cs.washington.edu/" target="_blank">
-          <img class="affiliation" src="images/logos/CSElogo.png" alt="UW Paul G. Allen School of Computer Science & Engineering." style="height: 128px; margin-top: 24px; margin-left: 20px;"></a>
+          <img class="affiliation" src="images/logos/CSElogo.png" alt="UW Paul G. Allen School of Computer Science & Engineering." style="margin-left: 1%;"></a>
         <a href="https://disabilitystudies.washington.edu/" target="_blank">
-          <img class="affiliation" src="images/logos/disabilitystudieslogo.png" alt="Disability Studies, University of Washington." style="height: 144px; margin-top: 16px"></a>
+          <img class="affiliation" src="images/logos/disabilitystudieslogo.png" alt="Disability Studies, University of Washington." style="width: 24%; height: auto; margin-top: 1%; margin-right: 0px"></a>
 
       
 
@@ -177,13 +178,13 @@
                     pub += '<img class="pub_img" src="images/publications/' + 
                       value.image + '" alt="' +
                       value.alt + '">';
-                    pub += '<h4 class="pub_title">' +  
+                    pub += '<div class="pub_text"> <h4 class="pub_title">' +  
                       value.title + '</h4></a>';
-                    pub += '<p>' +  
+                    pub += '<p class="pub_p">' +  
                       value.authors.join(', ') + '</p>';
-                    pub += '<p>' + 
+                    pub += '<p style="margin-bottom: 0px">' + 
                       value.conference + ' ' + value.year + '</p>';
-                    pub += '</div>';
+                    pub += '</div> </div>';
                   }
                 }); 
                 $("#publication").append(pub); 
@@ -205,9 +206,9 @@
                     n += '<div class="pub_obj">';
                     n += '<h4 class="pub_title">' +  
                       value.title + '</h4>';
-                    n += '<p>' +  
+                    n += '<p class="pub_p">' +  
                       value.news + '</p>';
-                    n += '<p>' +
+                    n += '<p style="margin-bottom: 0px">' +
                       value.date + '</p>';
                     n += '</div>';
                   }
@@ -219,10 +220,172 @@
         </script> 
       </section>
 
-      <h2 id="news">Undergraduates Applying to Work with the Lab</h2>
-        <p>Are you and undergraduate student interested in working with us? Please <a href="https://docs.google.com/forms/d/e/1FAIpQLSeXtIqTVQ386KLCNU-ZZY0hjfFQJFwDPQjj_kLFvObf5aX01Q/viewform?usp=dialog">fill out this form.</a></p>
+      <h2 id="apply">Apply</h2>
+        <p>Are you an undergraduate or Masters student who is interested in working with us? Please <a href="https://docs.google.com/forms/d/e/1FAIpQLSeXtIqTVQ386KLCNU-ZZY0hjfFQJFwDPQjj_kLFvObf5aX01Q/viewform?usp=dialog">fill out this form</a>.</p>
 
 
+
+      <!-- Sidebar scroll highlighting functionality -->
+      <script>
+        $(document).ready(function() {
+          // Get all navigation links and their corresponding sections
+          const navLinks = $('.sidebar a[data-scroll]');
+          let sections = [];
+          let contentLoaded = 0;
+          const totalContentSections = 5; // people, publications, news, and any other dynamic content
+          
+          // Function to initialize sections after content is loaded
+          function initializeSections() {
+              sections = [];
+              
+              // Build array of section elements and their IDs
+              navLinks.each(function() {
+                  const targetId = $(this).attr('href').substring(1);
+                  const section = $('#' + targetId);
+                  if (section.length) {
+                      sections.push({
+                          id: targetId,
+                          element: section,
+                          navLink: $(this)
+                      });
+                  }
+              });
+              
+              // Calculate section boundaries - each section extends to the next section's top
+              calculateSectionBoundaries();
+              
+              // Initialize the highlighting
+              updateActiveNav();
+          }
+          
+          // Function to calculate section boundaries
+          function calculateSectionBoundaries() {
+              sections.forEach(function(section, index) {
+                  section.top = section.element.offset().top;
+                  
+                  // Set bottom to the next section's top, or document bottom for the last section
+                  if (index < sections.length - 1) {
+                      section.bottom = sections[index + 1].element.offset().top;
+                  } else {
+                      section.bottom = $(document).height();
+                  }
+              });
+          }
+          
+          // Function to signal that content has loaded
+          function contentLoadComplete() {
+              contentLoaded++;
+              if (contentLoaded >= totalContentSections) {
+                  // Give a small delay to ensure all DOM updates are complete
+                  setTimeout(initializeSections, 100);
+              }
+          }
+          
+          // Function to update active navigation item
+          function updateActiveNav() {
+              const scrollPos = $(window).scrollTop();
+              const windowHeight = $(window).height();
+              const viewportMiddle = scrollPos + (windowHeight * 0.5); // Use top 50% of viewport as trigger point
+              
+              let activeSection = null;
+              
+              // Find which section contains the trigger point
+              sections.forEach(function(section) {
+                  if (viewportMiddle >= section.top && viewportMiddle < section.bottom) {
+                      activeSection = section;
+                  }
+              });
+              
+              // If no section contains the trigger point, find the closest one
+              if (!activeSection) {
+                  let closestDistance = Infinity;
+                  
+                  sections.forEach(function(section) {
+                      let distance;
+                      
+                      if (viewportMiddle < section.top) {
+                          // Trigger point is above section
+                          distance = section.top - viewportMiddle;
+                      } else {
+                          // Trigger point is below section
+                          distance = viewportMiddle - section.bottom;
+                      }
+                      
+                      if (distance < closestDistance) {
+                          closestDistance = distance;
+                          activeSection = section;
+                      }
+                  });
+              }
+
+              // If we're at the bottom of the page, highlight the last section
+              if (scrollPos + windowHeight >= $(document).height() - 100) {
+                  activeSection = sections[sections.length - 1];
+              }
+              
+              // Update navigation highlighting
+              if (activeSection) {
+                  // Remove active class from all nav links
+                  navLinks.removeClass('active_hl');
+
+                  // Add active class to current section's nav link
+                  activeSection.navLink.addClass('active_hl');
+              }
+          }
+          
+          // Smooth scrolling for navigation links
+          navLinks.on('click', function(e) {
+              e.preventDefault();
+              const targetId = $(this).attr('href');
+              const targetSection = $(targetId);
+              
+              if (targetSection.length) {
+                  $('html, body').animate({
+                      scrollTop: targetSection.offset().top - 20 // Small offset from top
+                  }, 800, 'swing');
+              }
+          });
+          
+          // Update active nav on scroll with throttling for better performance
+          let scrollTimeout;
+          $(window).on('scroll', function() {
+              if (sections.length > 0) { // Only run if sections are initialized
+                  clearTimeout(scrollTimeout);
+                  scrollTimeout = setTimeout(updateActiveNav, 10);
+              }
+          });
+          
+          // Recalculate section boundaries and update active nav when window is resized
+          $(window).on('resize', function() {
+              if (sections.length > 0) {
+                  calculateSectionBoundaries();
+                  setTimeout(updateActiveNav, 100);
+              }
+          });
+          
+          // Hook into existing JSON loading to detect when content is ready
+          // Override the existing getJSON calls to track completion
+          const originalGetJSON = $.getJSON;
+          $.getJSON = function(url, callback) {
+              return originalGetJSON.call(this, url, function(data) {
+                  // Call the original callback
+                  if (callback) {
+                      callback(data);
+                  }
+                  // Signal that this content section has loaded
+                  setTimeout(contentLoadComplete, 50);
+              });
+          };
+          
+          // Fallback: if no JSON content is detected, initialize after a delay
+          setTimeout(function() {
+              if (sections.length === 0) {
+                  initializeSections();
+              }
+          }, 1000);
+      });
+      </script>
+      
       <footer>
 
       </footer>

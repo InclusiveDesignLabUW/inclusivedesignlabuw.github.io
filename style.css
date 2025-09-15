@@ -11,11 +11,16 @@ h1 {
 }
 
 h2 {
+  padding-top: 12px;
   margin-top: 24px !important;
   margin-bottom: 12px !important;
   font-weight: 600;
   display: flex;
   align-items: center;
+}
+
+h3 {
+  padding-bottom: 8px;
 }
 
 h2::after {
@@ -31,8 +36,9 @@ section {
 }
 
 .affiliation {
-  height: 180px;
-  padding-right: 20px;
+  width: 16%;
+  height: auto;
+  margin-right: 12px;
 }
 
 /* People */
@@ -89,13 +95,28 @@ section {
 .pub_obj {
   width: 100% !important;
   float: left;
-  padding-bottom: 16px;
+  padding: 16px;
+  background: #EEEEEE;
+  margin-bottom: 16px;
 }
 
 .pub_img {
   float: left;
   padding: 0px 20px 0px 0px;
-  width: 160px;
+  width: 16%;
+}
+
+.pub_title {
+  color: #0A3EB8;
+}
+
+.pub_text {
+  float: right;
+  width: 84%;
+}
+
+.pub_p {
+  margin-bottom: 8px;
 }
 
 /* Sidebar */
@@ -120,7 +141,7 @@ section {
 
 .sidebar a:hover:not(.active) {
   background-color: white;
-  color: black;
+  color: #4b2e83;
 }
 
 main {
@@ -144,6 +165,16 @@ main {
     text-align: center;
     float: none;
   }
+}
+
+.active_hl a {
+  color: #fff;
+  background-color: #4b2e83;
+}
+
+a.active_hl {
+  color: #fff;
+  background-color: #4b2e83;
 }
 
 /* Miscellaneous */
