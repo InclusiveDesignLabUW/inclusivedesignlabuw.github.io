@@ -1,5 +1,15 @@
 [
   {
+    "title": "Creation, Critique, and Consumption: Exploring Generative AI Descriptions for Supporting Blind and Low Vision Professionals with Visual Tasks",
+    "authors": ["Lucy Jiang", "Lotus Zhang", "Leah Findlater"],
+    "conference": "ASSETS Workshop (AT @ Work: Intelligent Assistive Technologies for Enabling Workplace Inclusion)",
+    "year": 2025,
+    "image": "jiangassets2025.png",
+    "alt": "Slide titled 'Design Suggestions for Visual Descriptions' for two scenarios: filming and editing videos as an independent content creator and creating marketing materials for a large advertising agency.",
+    "link": "https://doi.org/10.48550/arXiv.2510.08991",
+    "abstract": "Many blind and low vision (BLV) people are excluded from professional roles that may involve visual tasks due to access barriers and persisting stigmas. Advancing generative AI systems can support BLV people through providing contextual and personalized visual descriptions for creation, critique, and consumption. In this workshop paper, we provide design suggestions for how visual descriptions can be better contextualized for multiple professional tasks. We conclude by discussing how these designs can improve autonomy, inclusion, and skill development over time.",
+    "feature": true
+  },{
     "title": "VizXpress: Towards Expressive Visual Content by Blind Creators Through AI Support",
     "authors": ["Lotus Zhang", "Zhuohao (Jerry) Zhang", "Gina Clepper", "Franklin Mingzhe Li", "Patrick Carrington", "Jacob O. Wobbrock", "Leah Findlater"],
     "conference": "ASSETS",
