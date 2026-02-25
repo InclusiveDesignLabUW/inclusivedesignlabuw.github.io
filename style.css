@@ -31,6 +31,10 @@ h2::after {
   background-color: #aaa;
 }
 
+a {
+  color: #0036A3;
+}
+
 section {
   overflow: hidden;
 }
