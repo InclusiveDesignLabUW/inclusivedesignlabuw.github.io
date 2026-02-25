@@ -31,8 +31,9 @@ h2::after {
   background-color: #aaa;
 }
 
-a {
-  color: #6740B5;
+:root {
+  --bs-link-color: #4B2E83;
+  --bs-link-hover-color: #331e5c;
 }
 
 section {
@@ -108,10 +109,6 @@ section {
   float: left;
   padding: 0px 20px 0px 0px;
   width: 16%;
-}
-
-.pub_title {
-  color: #0A3EB8;
 }
 
 .pub_text {
