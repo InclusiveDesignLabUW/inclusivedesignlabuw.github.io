@@ -31,9 +31,12 @@ h2::after {
   background-color: #aaa;
 }
 
-:root {
-  --bs-link-color: #4B2E83;
-  --bs-link-hover-color: #331e5c;
+a, a:link, a:visited {
+  color: #4B2E83;
+}
+
+a:hover, a:focus {
+  color: #331e5c;
 }
 
 section {
