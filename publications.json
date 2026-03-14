@@ -1,5 +1,15 @@
 [
   {
+    "title": "Interface Support for Evaluating Disability Bias in AI Generated Images",
+    "authors": ["Kelly Avery Mack", "Lucy Jiang", "Lotus Zhang", "Leah Findlater"],
+    "conference": "CHI",
+    "year": 2026,
+    "image": "comingsoon.png",
+    "alt": "Coming soon! in black text on a white background",
+    "link": "",
+    "abstract": "Generative text-to-image (T2I) models often output images that have stereotypes of people with disabilities. One possibility to mitigate the risk of these biases is to intervene at the user level, supporting T2I users themselves in being able to identify biases and act accordingly. To understand how to design such support and its potential effectiveness, we implemented two interventions: (1) an education module to inform users of disability stereotypes in T2I images and (2) AI-generated feedback about potential stereotypes in a given image. We evaluated these options alone and in combination through a controlled experiment (N=103) and a qualitative study (N=10). Our results demonstrate that interface-based interventions can help users identify stereotypes, but that people do not always desire to avoid stereotypes. Participants wanted image subjects to 'look' disabled, which sometimes inadvertently perpetuated stereotypes. Our results indicate clear ways for T2I interfaces to support users in prompting for and assessing images.",
+    "feature": true
+  },{
     "title": "Creation, Critique, and Consumption: Exploring Generative AI Descriptions for Supporting Blind and Low Vision Professionals with Visual Tasks",
     "authors": ["Lucy Jiang", "Lotus Zhang", "Leah Findlater"],
     "conference": "ASSETS Workshop (AT @ Work: Intelligent Assistive Technologies for Enabling Workplace Inclusion)",
@@ -14,20 +24,20 @@
     "authors": ["Lotus Zhang", "Zhuohao (Jerry) Zhang", "Gina Clepper", "Franklin Mingzhe Li", "Patrick Carrington", "Jacob O. Wobbrock", "Leah Findlater"],
     "conference": "ASSETS",
     "year": 2025,
-    "image": "comingsoon.png",
-    "alt": "Coming soon! in black text on white background",
-    "link": "",
-    "abstract": "",
+    "image": "zhangassets2025.png",
+    "alt": "Example edit result of the common image task from D3, D7, D8, and D10, with each participant’s confidence level for the edit result and the specific edits they applied. All four edits are on a picture of a French bulldog sitting on a carpeted floor near a fluffy chair and cables. D3's edit was to crop to focus on dog with little background, increase brightness and contrast, text: “Got any snacks?” and rated their confidence level as Confident. D7's edit was to crop to focus on dog with little background, text: “Innocent until proven guilty” and rated their confidence level as Somewhat confident. D8's edit was to crop to focus on dog and fur with little background, increase brightness and contrast, text: “So Cute!” and rated their confidence level as Somewhat confident. D10's edit was to crop to focus on dog with moderate background, sticker: “Face with heart shaped eyes” and rated their confidence level as Not confident.",
+    "link": "https://doi.org/10.1145/3663547.3746345",
+    "abstract": "From curating the layout of a resume to selecting filters for social media, creating and configuring visual content allows individuals to express identity, communicate intent, and engage socially, yet blind individuals often face significant barriers to such expressive practices. Prior accessibility research primarily addresses functional content configuration, leaving little understanding of blind individuals’ expressive visual creation needs. To better understand and support these needs, we conducted a two-stage study: first, we interviewed 10 blind participants to understand their motivations, current practices, and barriers in visual expression, and to ideate on potential visual editing support; second, based on interview insights, we developed an interactive prototype (VizXpress) that provides real-time feedback on visual aesthetics using a vision-language model and supports automated and manual visual editing controls. We used VizXpress as a design probe to further explore accessible design opportunities for visual expression. Our findings highlight many blind users’ strong interest in creating visually expressive content, nuanced informational requirements for subjective aesthetics (e.g., color, mood, lighting), and ongoing accessibility challenges with visual creative tools. Grounded in these insights, we propose design implications including richer aesthetic feedback, controlled intelligent editing, and accessible manual editing mechanisms.",
     "feature": true
   },{
     "title": "Modeling Accessibility: Characterizing What We Mean By “Accessible”",
     "authors": ["Kelly Avery Mack", "Jesse J. Martinez", "Aaleyah Lewis", "Jennifer Mankoff", "James Fogarty", "Leah Findlater", "Heather D. Evans", "Cynthia L. Bennett", "Emma J. McDonnell"],
     "conference": "ASSETS",
     "year": 2025,
-    "image": "comingsoon.png",
-    "alt": "Coming soon! in black text on white background",
-    "link": "",
-    "abstract": "",
+    "image": "mackassets2025.png",
+    "alt": "The decision-making process is structured in three columns. The first column, titled, 'Assessing the Situation,' is split into three sections, “Barrier,” “Repertoire,” and “Contextual Factors.” It details a person, Riley, experiencing a bodymind barrier by experiencing joint pain while walking home. Their repertoire includes a cane, a bus pass, and a rideshare app. The relevant contextual factors include safety, affordability, and social acceptability. The second column, titled, 'Consequence Calculus,' displays stacked bar graphs weighing the potential paths towards access through consequence calculus for each tool and contextual factor. The cane has a low safety score, a high affordability score, and a low social acceptability score. the bus has a medium safety score, medium-high affordability score, and medium acceptability score. The rideshare has a high safety score, very low affordability score, and medium acceptability score. When combined, the cane emerges as the most affordable option, the rideshare is the best for safety, and the bus is the highest-scoring overall. In the third column, titled, 'Decision,' Riley chooses the bus, as it is the best option based on their model of accessibility.",
+    "link": "https://doi.org/10.1145/3663547.3746344",
+    "abstract": "Accessibility research has a broad mandate: use technology to make the world more accessible to disabled people. Yet, as a field, accessibility research lacks a clear characterization of what “accessibility” is. Furthermore, it has been historically limited in who is designed for, focusing on specific types of disability and often failing to consider how disability intersects with other identities. We set out to explicate what it means to make something accessible, grounded in the lived experiences of a diverse group of 25 disabled people. From our empirical findings, we develop a process for modeling accessibility. First, an individual assesses their experience of inaccess, specifically, the type of barrier they face, the technology repertoire they possess, and the contextual factors that shape how they address accessibility barriers. Then, having assessed an access barrier, they perform consequence calculus, weighing all available options to achieve access and deciding upon the option that best matches their priorities. We highlight the situated nature of access; people’s identities, contextual factors, repertoires, and priorities all dictate their experience of accessibility.",
     "feature": true
   },{
     "title": "“What Would I Want to Make? Probably Everything”: Practices and Speculations of Blind and Low Vision Tactile Graphics Creators",
